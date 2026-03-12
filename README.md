@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Grupo Varandas da Saúde</title>
+
+<meta name="description" content="Clínica multidisciplinar em Viana do Castelo. Medicina do Trabalho, especialidades médicas e controlo de pragas.">
+
+<link rel="icon" href="img/favicon.png">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+
+<body>
+
+<header>
+
+<div class="logo">
+Grupo Varandas da Saúde
+</div>
+
+<nav>
+
+<a href="#unidades">Unidades</a>
+<a href="#mapa">Localização</a>
+<a href="#contactos">Contactos</a>
+
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1>Excelência em Cuidados de Saúde e Segurança</h1>
+
+<p>
+Clínica multidisciplinar, Medicina do Trabalho, Higiene e Segurança no Trabalho e Controlo de Pragas.
+Atendimento profissional em Viana do Castelo desde 1997.
+</p>
+
+</section>
+
+
+
+<section id="unidades">
+
+<h2>As Nossas Unidades</h2>
+
+<div class="units">
+
+
+<div class="unit-card">
+
+<div class="unit-header pink">
+Clínica da Bandeira
+</div>
+
+<div class="unit-content">
+
+<p>Cuidados de saúde gerais e especializados focados no bem-estar do paciente.</p>
+
+<div class="services-grid">
+
+<div class="service-item">Medicina Geral</div>
+<div class="service-item">Endocrinologia</div>
+<div class="service-item">Psiquiatria</div>
+<div class="service-item">Reumatologia</div>
+<div class="service-item">Nutrição</div>
+<div class="service-item">Osteopatia</div>
+<div class="service-item">Enfermagem</div>
+<div class="service-item">Análises Clínicas</div>
+<div class="service-item">Medicina Dentária</div>
+<div class="service-item">Implantologia</div>
+<div class="service-item">Ortodontia</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+<div class="unit-card">
+
+<div class="unit-header yellow">
+Varandas da Saúde
+</div>
+
+<div class="unit-content">
+
+<p>Serviços especializados em saúde ocupacional e exames médicos.</p>
+
+<div class="services-grid">
+
+<div class="service-item">Medicina do Trabalho</div>
+<div class="service-item">Exames Ocupacionais</div>
+<div class="service-item">Consultas Ocupacionais</div>
+<div class="service-item">Exames Empresas</div>
+<div class="service-item">Recibos Verdes</div>
+<div class="service-item">Avaliações de Risco</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+<div class="unit-card">
+
+<div class="unit-header green">
+Prevent Control
+</div>
+
+<div class="unit-content">
+
+<p>Soluções completas de higiene, segurança alimentar e controlo de pragas.</p>
+
+<div class="services-grid">
+
+<div class="service-item">Higiene e Segurança</div>
+<div class="service-item">Implementação HACCP</div>
+<div class="service-item">Controlo de Pragas</div>
+<div class="service-item">Consultoria Alimentar</div>
+<div class="service-item">Auditorias</div>
+<div class="service-item">Planos de Prevenção</div>
+
+</div>
+
+</div>
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<section id="mapa">
+
+<h2>Localização</h2>
+
+<iframe 
+src="https://www.google.com/maps?q=Rua+da+Bandeira+435+Viana+do+Castelo&output=embed"
+loading="lazy">
+</iframe>
+
+</section>
+
+
+
+<footer id="contactos">
+
+<div class="footer-grid">
+
+<div class="footer-col">
+
+<h4>Contacto Geral</h4>
+
+<p><i class="fas fa-phone"></i> 258 838 011</p>
+<p><i class="fas fa-mobile"></i> 934 579 140</p>
+
+<p>
+<i class="fas fa-envelope"></i>
+<a href="mailto:geral@varandasdasaude.pt">
+geral@varandasdasaude.pt
+</a>
+</p>
+
+</div>
+
+
+
+<div class="footer-col">
+
+<h4>Morada</h4>
+
+<p>Rua da Bandeira 435</p>
+<p>4900-560 Viana do Castelo</p>
+<p>Portugal</p>
+
+</div>
+
+
+
+<div class="footer-col">
+
+<h4>Horário</h4>
+
+<p>Clínica da Bandeira: 09:00 – 18:30</p>
+<p>Varandas da Saúde: 09:00 – 19:00</p>
+<p>Prevent Control: 09:00 – 18:30</p>
+<p>Segunda a Sexta</p>
+
+</div>
+
+</div>
+
+
+
+<div class="copyright">
+
+© 2026 Grupo Varandas da Saúde
+
+</div>
+
+</footer>
+
+
+</body>
+</html>
