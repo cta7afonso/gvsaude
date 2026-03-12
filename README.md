@@ -62,14 +62,13 @@ box-shadow:0 2px 12px rgba(0,0,0,0.06);
 padding:1rem 6%;
 
 display:flex;
-justify-content:space-between;
 align-items:center;
 
 z-index:1000;
 
 }
 
-/* LOGO TEXTO */
+/* LOGO */
 
 .logo{
 
@@ -78,16 +77,28 @@ font-weight:700;
 
 color:var(--primary-dark);
 
+position:absolute;
+left:6%;
+
 }
 
-/* MENU */
+/* MENU CENTRADO */
+
+nav{
+
+width:100%;
+display:flex;
+justify-content:center;
+
+}
 
 nav a{
 
-margin-left:1.6rem;
-text-decoration:none;
+margin:0 1.5rem;
 
+text-decoration:none;
 color:var(--text);
+
 font-weight:600;
 
 transition:0.25s;
@@ -153,7 +164,6 @@ font-size:2.5rem;
 .units{
 
 display:grid;
-
 grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
 
 gap:2rem;
@@ -181,7 +191,6 @@ transition:0.3s;
 .unit-card:hover{
 
 transform:translateY(-6px);
-
 box-shadow:0 12px 28px rgba(0,0,0,0.12);
 
 }
@@ -189,11 +198,8 @@ box-shadow:0 12px 28px rgba(0,0,0,0.12);
 .unit-header{
 
 color:white;
-
 padding:1.6rem;
-
 text-align:center;
-
 font-size:1.8rem;
 
 }
@@ -211,19 +217,15 @@ background:var(--accent-green);
 }
 
 .unit-content{
-
 padding:2.3rem;
-
 }
 
 .services-grid{
 
 display:grid;
-
 grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
 
 gap:1rem;
-
 margin-top:1.5rem;
 
 }
@@ -237,7 +239,6 @@ padding:0.9rem;
 border-radius:10px;
 
 text-align:center;
-
 font-weight:600;
 
 border:1px solid var(--border);
@@ -262,11 +263,9 @@ background:#f0f5fa;
 #map{
 
 height:520px;
-
 border:none;
 
 width:100%;
-
 max-width:1300px;
 
 margin:auto;
@@ -293,7 +292,6 @@ border-top:1px solid var(--border);
 .footer-grid{
 
 display:grid;
-
 grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 
 gap:3rem;
@@ -306,7 +304,6 @@ margin:auto;
 .footer-col h4{
 
 font-size:1.3rem;
-
 margin-bottom:1rem;
 
 color:var(--primary-dark);
@@ -317,7 +314,6 @@ color:var(--primary-dark);
 .footer-col a{
 
 font-size:1rem;
-
 color:#4a5c6a;
 
 margin:0.4rem 0;
@@ -337,7 +333,6 @@ color:var(--primary);
 text-align:center;
 
 margin-top:2rem;
-
 padding-top:2rem;
 
 border-top:1px solid var(--border);
@@ -347,11 +342,9 @@ border-top:1px solid var(--border);
 .social-group{
 
 display:flex;
-
 justify-content:center;
 
 gap:4rem;
-
 flex-wrap:wrap;
 
 }
@@ -363,7 +356,6 @@ text-align:center;
 .social-unit h5{
 
 margin-bottom:0.7rem;
-
 color:var(--primary-dark);
 
 }
@@ -372,6 +364,7 @@ color:var(--primary-dark);
 
 display:flex;
 justify-content:center;
+
 gap:1.6rem;
 
 }
@@ -379,6 +372,7 @@ gap:1.6rem;
 .social-icons a{
 
 font-size:2rem;
+
 color:var(--gray);
 transition:0.3s;
 
@@ -398,7 +392,6 @@ transform:translateY(-4px);
 text-align:center;
 
 margin-top:3rem;
-
 padding-top:1.5rem;
 
 border-top:1px solid var(--border);
@@ -412,22 +405,12 @@ font-size:0.9rem;
 @media(max-width:768px){
 
 header{
-flex-wrap:wrap;
-justify-content:center;
+flex-direction:column;
 }
 
 .logo{
+position:static;
 margin-bottom:0.5rem;
-}
-
-nav{
-width:100%;
-display:flex;
-justify-content:center;
-}
-
-nav a{
-margin:0 1rem;
 }
 
 .hero{
@@ -449,7 +432,6 @@ height:420px;
 </head>
 
 <body>
-
 
 <header>
 
@@ -486,13 +468,8 @@ Atendimento profissional em Viana do Castelo desde 1997.
 
 <div class="units">
 
-
 <div class="unit-card">
-
-<div class="unit-header">
-Clínica da Bandeira
-</div>
-
+<div class="unit-header">Clínica da Bandeira</div>
 <div class="unit-content">
 
 <p>Cuidados de saúde gerais e especializados focados no bem-estar do paciente.</p>
@@ -512,18 +489,12 @@ Clínica da Bandeira
 <div class="service-item">Ortodontia</div>
 
 </div>
-
 </div>
-
 </div>
 
 
 <div class="unit-card">
-
-<div class="unit-header">
-Varandas da Saúde
-</div>
-
+<div class="unit-header">Varandas da Saúde</div>
 <div class="unit-content">
 
 <p>Serviços especializados em saúde ocupacional e exames médicos.</p>
@@ -538,18 +509,12 @@ Varandas da Saúde
 <div class="service-item">Avaliações de Risco</div>
 
 </div>
-
 </div>
-
 </div>
 
 
 <div class="unit-card">
-
-<div class="unit-header">
-Prevent Control
-</div>
-
+<div class="unit-header">Prevent Control</div>
 <div class="unit-content">
 
 <p>Soluções completas de higiene, segurança alimentar e controlo de pragas.</p>
@@ -564,14 +529,10 @@ Prevent Control
 <div class="service-item">Planos de Prevenção</div>
 
 </div>
-
+</div>
 </div>
 
 </div>
-
-
-</div>
-
 </section>
 
 
@@ -579,8 +540,7 @@ Prevent Control
 
 <h2>A Nossa Localização</h2>
 
-<iframe
-id="map"
+<iframe id="map"
 src="https://www.google.com/maps?q=Rua+da+Bandeira+435+Viana+do+Castelo&output=embed"
 loading="lazy">
 </iframe>
@@ -633,84 +593,8 @@ geral@varandasdasaude.pt
 
 </div>
 
-
-<div class="social-section">
-
-<h4>Redes Sociais do Grupo</h4>
-
-<div class="social-group">
-
-
-<div class="social-unit">
-
-<h5>Clínica da Bandeira</h5>
-
-<div class="social-icons">
-
-<a href="https://www.facebook.com/clinicadabandeira" target="_blank">
-<i class="fab fa-facebook-f"></i>
-</a>
-
-<a href="https://www.instagram.com/clinicadabandeira" target="_blank">
-<i class="fab fa-instagram"></i>
-</a>
-
-</div>
-
-</div>
-
-
-<div class="social-unit">
-
-<h5>Varandas da Saúde</h5>
-
-<div class="social-icons">
-
-<a href="https://www.facebook.com/varandasdasaude/" target="_blank">
-<i class="fab fa-facebook-f"></i>
-</a>
-
-<a href="https://www.instagram.com/varandasdasaude/" target="_blank">
-<i class="fab fa-instagram"></i>
-</a>
-
-</div>
-
-</div>
-
-
-<div class="social-unit">
-
-<h5>Prevent Control</h5>
-
-<div class="social-icons">
-
-<a href="https://www.facebook.com/AJpreventcontrol/" target="_blank">
-<i class="fab fa-facebook-f"></i>
-</a>
-
-<a href="https://www.instagram.com/preventcontrol_" target="_blank">
-<i class="fab fa-instagram"></i>
-</a>
-
-<a href="https://www.linkedin.com/in/a-j-shst-05636b53/" target="_blank">
-<i class="fab fa-linkedin-in"></i>
-</a>
-
-</div>
-
-</div>
-
-
-</div>
-
-</div>
-
-
 <div class="copyright">
-
 © 2026 Grupo Varandas da Saúde — Todos os direitos reservados
-
 </div>
 
 </footer>
